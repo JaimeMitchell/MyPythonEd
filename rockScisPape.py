@@ -1,0 +1,21 @@
+a = '2'
+b = '3'
+c = '5' 
+# print the data type of a and b
+print(type(a))
+print(type(b))
+# convert a using float
+a = float(a)
+  
+# convert b using int
+b = int(b)
+
+#convert c using float
+c = float(c)
+  
+# sum both integers
+sum = a + b * c
+  
+# as strings and integers can't be added
+# try testing the sum
+print(sum)
